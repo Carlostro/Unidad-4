@@ -17,7 +17,7 @@ escribiendo make y a continuación el nombre del archivo a compilar. "make hola"
 
 ## Ejercicio Calculadora.
 ---
-En este ejercicio hemos hecho una calculadora simple en un fichero (calc.c) en el que incluia la llamada a un archivo cabezera
+En este ejercicio hemos hecho una calculadora simple en un fichero (calc.c) en el que incluía la llamada a un archivo cabecera
 muy comun como es el caso del <stdio.h> el cual nos permite utilizar la funcion printf, a continuacion hemos definido las funciones suma, resta, multiplicacion y division.
 Estas funciones vienen formadas por: 
 
@@ -25,7 +25,7 @@ Estas funciones vienen formadas por:
 
 		int suma(int op1,int op2)
 
-A continuacion tenemos la ultima orden RETURN que nos devuelve el resultado de la funcion.
+A continuación tenemos la última orden RETURN que nos devuelve el resultado de la funcion.
 
 			return (op1+op2)
 Quedando como resultado :
@@ -47,7 +47,7 @@ Esto se repite para las diferentes funciones utilizadas en la calculadora.
     	return (op1/op2);
 	}
 
-En el ejercicio se pide añadir una funcion de mayor que quedaria de la siguiente forma:
+En el ejercicio se pide añadir una función de mayor que quedaría de la siguiente forma:
 
 	int major(int op1,int op2){
     
@@ -58,7 +58,7 @@ En el ejercicio se pide añadir una funcion de mayor que quedaria de la siguient
            
 	}
 
-La siguiente parte del programa es la llamada a la funcion principal (main).
+La siguiente parte del programa es la llamada a la función principal (main).
 Esta parte del programa es donde se ejecutan las funciones que hemos definido anteriormente.
 
     int main(){
@@ -71,7 +71,7 @@ Esta parte del programa es donde se ejecutan las funciones que hemos definido an
 	printf("La divisió entre %d i %d és %d\n", a, b, divideix(a,b));
 	}
 
-Si ejecutamos el programa despues de compilarlo nos retornara el resultado de las operaciones que que hemos declarado.
+Si ejecutamos el programa después de compilarlo nos retornara el resultado de las operaciones que hemos declarado.
 
 
 	$ ./calcula
@@ -81,13 +81,13 @@ Si ejecutamos el programa despues de compilarlo nos retornara el resultado de la
 	La divisió entre 10 i 5 és 2
 
 
-Tambien se nos pide que creemos nuestra propia libreria y que la implementemos.
+También se nos pide que creemos nuestra propia librería y que la implementemos.
 
 El resultado final son tres archivos :
 
 + calc.c (Donde estan implementadas las funciones que hemos programado).
-+ calc.h (Este archico es la libreria creada ,definicion de funciones).
-+ calcula.c (codigo fuente donde hace la llamada y tenemos la funcion main).
++ calc.h (Este archivo es la librería creada ,definición de funciones).
++ calcula.c (codigo fuente donde hace la llamada y tenemos la función main).
 
 **En la carpeta del ejercicio se ha añadido una carpeta de capturas donde se pueden ver las prácticas realizadas y los resultados**
 
@@ -95,4 +95,6 @@ El resultado final son tres archivos :
 
 ## Ejercicio creación de archivo Makefile.
 ---
-En este ejercicio hemos creado un archivo Markfile
+En este ejercicio hemos creado un archivo Makefile
+
+![img1] (/Make/Makefile/Capturas/Makefile.png)
